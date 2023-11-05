@@ -1,0 +1,58 @@
+
+body{
+    width :100vw;
+    margin:0;
+    padding:0;
+}
+
+table{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    width:auto;
+    overflow-x: auto;
+}
+th,td{
+    border: 1px solid black;
+    min-width:80px;
+}
+tr{
+    height:30px; /*min-height property will not work,height will work as min-height*/
+}
+td:focus{
+outline:none;
+}
+.btn{
+    cursor:context-menu;
+    margin:10px;
+    padding:10px;
+    /* border-radius:50%; */
+}
+.btn:hover{
+    background-color: rgb(210, 210, 210);
+}
+.btn1{
+    background:transparent;
+    font-size:24px;
+    font-weight: bold;
+    border:none;
+}
+select{
+    width:70px;
+    margin:10px;
+}
+option{
+    text-align: center;
+}
+#download{
+    margin:5px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.container{
+    position:absolute;
+    /* top:500px; */
+    top:688px;
+    
+    /* left:0px; */
+}
